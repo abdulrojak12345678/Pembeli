@@ -22,11 +22,11 @@
       <input type="text" class="form-control" id="input-alamat">
     </div>
     <div class="mb-3">
-      <label class="form-label">NoTlpn</label>
-      <input type="text" class="form-control" id="input-noTlpn">
+      <label class="form-label">Notlpn</label>
+      <input type="text" class="form-control" id="input-notlpn">
     </div>
     <button type="submit" class="btn btn-primary" id="tombol-ubah">ubah</button>
-     <img src="loader.gif" style="width: 2em; display: none" id="loader">
+     <img src="loader.gif" style="width: 1em; display: none" id="loader">
   </form>
 
   <a class="mt-1" href="index.html">Lihat Daftar Siswa</a>
@@ -46,7 +46,7 @@
 
     elemenNamaPembeli.value = pembeli.nama;
     elemenAlamat.value = pembeli.alamat;
-    elemenNoTlpn.value = pembeli.noTlpn;
+    elemenNoTlpn.value = pembeli.notlpn;
 
 
     tombolUbah.addEventListener('click', async function(el) {
